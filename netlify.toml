@@ -5,13 +5,13 @@
   publish = "dist"
 
 [[redirects]]
-  from = "https://stirring-stardust-d51df6.netlify.app/ipfs/*"
-  to = "https://ttm.mypinata.cloud/ipfs/:splat"
+  from = "https://ipfs.stirring-stardust-d51df6.netlify.app/*"
+  to = "https://ttm.mypinata.cloud/:splat"
   status = 302
   force = true
 
 [[redirects]]
-  from = "https://ipfs.stirring-stardust-d51df6.netlify.app/*"
+  from = "https://ipfs.battlehard.studio/*"
   to = "https://ttm.mypinata.cloud/:splat"
   status = 302
   force = true
