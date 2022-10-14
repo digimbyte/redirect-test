@@ -5,8 +5,8 @@
   publish = "dist"
 
 [[redirects]]
-  from = "/ipfs/*"
-  to = "https://ttm.pinata.cloud/ipfs/:splat"
+  from = "/ipfs"
+  to = "https://ttm.pinata.cloud/ipfs"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
