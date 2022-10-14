@@ -5,14 +5,8 @@
   publish = "dist"
 
 [[redirects]]
-  from = "https://stirring-stardust-d51df6.netlify.app"
-  to = "https://test.stirring-stardust-d51df6.netlify.app"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://stirring-stardust-d51df6.netlify.app/bacon"
-  to = "https://stirring-stardust-d51df6.netlify.app"
+  from = "https://stirring-stardust-d51df6.netlify.app/*"
+  to = "https://ttm.pinata.cloud/:splat"
   status = 301
   force = true
 
